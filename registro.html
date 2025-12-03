@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Registro</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Crear Cuenta</h2>
+
+    <div id="regMsg" class="message" style="display:none;"></div>
+
+    <form id="formRegistro" autocomplete="off">
+      <input type="text" id="regNombre" placeholder="Nombre completo" required>
+      <input type="email" id="regEmail" placeholder="Correo (será tu usuario)" required>
+      <input type="tel" id="regCel" placeholder="Número de móvil" required>
+      <div class="field-inline">
+        <input type="password" id="regPass" placeholder="Contraseña (4 caracteres)" required>
+        <label><input type="checkbox" id="toggleRegPass"> mostrar</label>
+      </div>
+      <button type="submit">Registrar</button>
+    </form>
+
+    <div class="links">
+      <a href="index.html">Volver al inicio</a>
+    </div>
+  </div>
+</body>
+</html>
+

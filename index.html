@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Iniciar Sesión</h2>
+
+    <div id="loginMsg" class="message" style="display:none;"></div>
+
+    <form id="formLogin" autocomplete="off">
+      <input type="email" id="loginEmail" placeholder="Correo electrónico" required>
+      <div class="field-inline">
+        <input type="password" id="loginPass" placeholder="Contraseña (4 caracteres)" required>
+        <label><input type="checkbox" id="toggleLoginPass"> mostrar</label>
+      </div>
+      <button type="submit">Ingresar</button>
+    </form>
+
+    <div class="links">
+      <a href="registro.html">Crear cuenta</a> ·
+      <a href="recuperar.html" id="linkRecuperar">Recuperar contraseña</a>
+    </div>
+  </div>
+</body>
+</html>

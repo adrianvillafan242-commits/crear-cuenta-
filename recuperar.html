@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Recuperar cuenta</title>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Recuperar Contraseña</h2>
+
+    <div id="recMsg" class="message" style="display:none;"></div>
+
+    <form id="formRecuperar" autocomplete="off">
+      <input type="email" id="recEmail" placeholder="Correo registrado" required>
+      <div class="field-inline">
+        <input type="password" id="recPass" placeholder="Nueva contraseña (4 caracteres)" required>
+        <label><input type="checkbox" id="toggleRecPass"> mostrar</label>
+      </div>
+      <input type="password" id="recConf" placeholder="Confirmar nueva contraseña" required>
+      <button type="submit">Cambiar Contraseña</button>
+    </form>
+
+    <div class="links">
+      <a href="index.html">Volver al inicio</a>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
